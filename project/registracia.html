@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="the best gun">
+  <meta name="author" content="gun shop">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <title>myproject</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"><h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8269;</h1></a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">მთავარი&nbsp;გვერდი</a></li>
+                <li><a href="produqcia.html">პროდუქცია</a></li>
+                <li><a href="filialebi.html">ჩვენს&nbsp;შესახებ</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="registracia.html"><span class="glyphicon glyphicon-user"></span>რეგისტრაცია</a></li>
+                <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span>შესვლა</a></li>
+              </ul>
+            </div>
+          </nav>
+        <nav id="navigation"></nav>
+    </header>
+    <main>
+        <section class="registracia">
+            <div class="reklama">
+                <h2>გთხოვთ დარეგისტრირდეთ</h2>
+            </div>
+            <form action="" method="get" autocomplete="off">
+                <input type="text" id="name" placeholder="სახელი" required>
+                <input type="text" id="lastname" placeholder="გვარი" required>
+                <input type="number" id="tel" placeholder="ტელეფონის ნომერი" required>
+                <input type="text" id="password1" placeholder="პაროლი" required>
+                <input type="text" id="password2" placeholder="გაიმეორეთ&#160;პაროლი" required>
+                <label for="tetxarea" class="mis">გთხოვთ მიუთითოთ ზუსტი მისამართი</label>
+                <textarea name="coment" id="komentari" cols="30" rows="10"></textarea>
+                <label for="gadaxda"><p class="gadax">გთხოვთ მიუთითოთ გადახდის მეთოდი</p></label>
+                <div class="gadaxdismetodi">
+                    <input type="checkbox" name="" id="card">
+                    <label for="card">ბარათით გადახდა</label>
+                    <input type="checkbox" name="" id="cashi">
+                    <label for="cashi">ქეშით გადახდა</label>
+                </div>
+                <input type="submit" onclick="sheamowmepassword();" value="რეგისტრაცია" class="btn" formaction="shesvla.html">
+            </form>
+        </section>
+        <p class="messageus" onclick="messageboxshow();">მოგვწერეთ შეტყობინება</p>
+        <div class="messagebox" id="messagebox">
+            <div class="messageboxheader">
+                <p>თქვენი შეტყობინება</p>
+                <p class="close" onclick="messageboxhide();">&#x2718;</p>
+            </div>
+            <div class="messageboxcontent">
+                <label for="yourmessage">დაწერეთ თქვენი შეტყობინება</label>
+                <textarea name="yourmessage" id="yourmessage" cols="30" rows="20" placeholder="თქვენი შეტყობნების ადგილი"></textarea>
+                <p class="gagzavna">გაგზავნა</p>
+            </div>
+           
+        </div>
+    </main>
+    <footer></footer>
+    <script src="javascript/javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

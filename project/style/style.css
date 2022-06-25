@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+background-image: url(../img/soldier-guarding-design.jpg);    
+background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+body img{
+    height: 100vh;
+}
+.container-fluid{
+    background-color: #202020;
+}
+
+.navbar-brand{
+    background-image: url(../img/png3.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+.registracia{
+    width: 60%;
+  margin: 70px auto;
+}
+.reklama{
+    margin: auto;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.reklama h2{
+    padding-top: 10px;
+    padding-top: 30px;
+}
+form{
+    width: 100%;
+}
+input{
+    width: 100%;
+    height: 70px;
+}
+input{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+label{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 150px;
+}
+.mis{
+    color: rgba(255, 255, 255, 0.5);
+}
+.gadax{
+    color:  rgba(255, 255, 255, 0.5);
+    padding: 30 0px;
+}
+.gadaxdismetodi{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+input, textarea{
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 20px;
+}
+.gadaxda{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.gadaxdismetodi input{
+    width: 30px;
+    height: 30px;
+    display: inline;
+    margin-left: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin:  30px;
+}
+#cashi{
+    margin-left: 30px;
+}
+.btn{
+   background-color: #01AF8C;
+   border: none;
+   width: 100%;
+   margin-top: 30px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+
+.tanxmoba{
+    width: 50%;
+    height: 300px;
+    background-color: black;
+    border-radius: 30px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 10px;
+}
+.tanxmoba h3{
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    font-size: 30px;
+}
+.tanxmoba p{
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.klick{
+  width: 50%;
+  height: 80px;
+  background-color: #F5BA22;
+  border: none;
+  border-radius: 20px;
+  margin: 100px;
+  margin-left: 320px;
+}
+
+
+.klick a{
+    color: #000000;
+    font-size: 20px;
+}
+.form-group{
+    width: 50%;
+    margin: auto;
+}
+
+.checkbox{
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+}
+
+.checkbox .remember{
+    width: 20px;
+    height: 20px;
+}
+.checkbox .text22{
+    padding-left: 20px;
+}
+
+.button{
+    width: 50%;
+    height: 0px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.button .btn{
+    height: 34px;
+    margin: 0%;
+}
+.boxcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 5px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+} 
+.box h2{
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+.box img{
+    width: 290px;
+    height: 100px;
+}
+.box p{
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.item{
+    width: 50%;
+    margin: auto;
+    border: 2px solid rgb(169, 169, 169);
+    border-radius: 10px;
+   }
+   .reklama1{
+    width: 260px;
+    height: 500px;
+   position: absolute;
+   right: 0;
+   overflow: hidden;
+   border-radius: 5px;
+   border: 2px solid beige;
+   margin-right: 10px;
+   margin-top: 30px;
+   }
+   
+   .reklama1 .img{
+       width: 260px;
+       height: 500px;
+   }
+   .siaxleebi{
+    width: 70%;
+    background-color: rgb(219, 219, 219);
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+   }
+   .news{
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    margin-top:  5px;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    padding: 5px;
+   }
+   .siaxleebi h3{
+    padding: 5px;
+    color: black;
+    text-transform: uppercase;
+   }
+   .siaxleebi h4{
+    text-decoration:underline;
+   }
+ 
+   
+.messageus{
+    width: 260px;
+    padding: 20px;
+    text-align: center;
+    background-color: #348533;
+    color: #ffffff;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    border-radius: 10px;
+}
+.messageus:hover{
+    background-color: rgba(45, 139, 64, 0.8);
+    cursor: pointer;
+}
+.messagebox{
+    width: 260px;
+    background-color: #dadada;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    display: none;
+    border-radius: 10px;
+}
+.messageboxheader{
+    width: 100%;
+    padding: 20px;
+    background-color: #2e2e2e;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.close{
+    padding: 5px;
+}
+
+.close:hover{
+    color: #009b43;
+    cursor: pointer;
+}
+.messageboxcontent{
+    width: 95%;
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+#yourmessage{
+    width: 100%;
+    margin-top: 10px;
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.gagzavna{
+    width:100%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #009b43;
+}
+.gagzavna:hover{
+    background-color: #00e965;
+    cursor: pointer;
+}
+.item{
+    height: 500px;
+    overflow: hidden;
+}
+
+.carousel-inner{
+    height: 160px;
+}
+h5{
+    padding: 20px;
+    font-size: 38px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: rgb(213, 0, 43);
+}
+.info{
+    color: rgb(0, 0, 0);
+}
+.bereta{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
+.bereta img{
+    width: 500px;
+    height: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .reklama1 {
+    width: 150px;
+  }
+  .messageus{
+    width: 130px;
+    padding: 10px;
+    text-align: center;
+    background-color: #348533;
+    color: #ffffff;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    border-radius: 5px;
+}
+.messageus:hover{
+    background-color: rgba(45, 139, 64, 0.8);
+    cursor: pointer;
+}
+.messagebox{
+    width: 130px;
+    background-color: #dadada;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    display: none;
+    border-radius: 5px;
+}
+.messageboxheader{
+    width: 100%;
+    padding: 10px;
+    background-color: #2e2e2e;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.close{
+    padding: 2.5px;
+}
+
+.close:hover{
+    color: #009b43;
+    cursor: pointer;
+}
+.messageboxcontent{
+    width: 95%;
+    margin: 10px auto;
+    padding-bottom: 10px;
+}
+#yourmessage{
+    width: 100%;
+    margin-top: 5px;
+    resize: none;
+    padding: 5px;
+    font-size: 8px;
+}
+
+.gagzavna{
+    width:100%;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+    background-color: #009b43;
+}
+.gagzavna:hover{
+    background-color: #00e965;
+    cursor: pointer;
+}
+.item {
+    height: 90px;
+}
+.klick{
+   width: 200px;
+   margin-left: 270px;
+}
+}
